@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    width: 970px;
+    background-color: black;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    margin-left:65px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 59px 0px 0px;
+}
+
+li:last-child {
+    padding-right: 0px;
+}
+
+a:link {
+    color: rgb(26,156,238);
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: rgb(26,156,238);
+}
+
+
+#container_div {
+    width: 970px;
+    background-color: rgb(6,33,52);
+    color: white;
+    padding-bottom: 50px;
+}
+
+#header_div {
+    background-color: rgb(6,33,52);
+    color: white;
+    width:970px;
+    padding-right:0px;
+    margin-right: 0px;
+}
+
+#body_container_div {
+    background-color: white;
+    width: 880px;
+    margin:20px 20px 0px 20px;
+    padding-right: 10px;
+}
+#top_image_div {
+    display:inline-block;
+    margin:10px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    display:inline-block;
+    vertical-align: top;
+    padding:10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    color:grey;
+    margin:10px 10px 10px 20px;
+    font-size: 19px;
+    display: inline-block;
+    font-weight:normal;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color:grey;
+    padding:25px 20px 40px 20px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight:nomral;
+    background-color:rgb(218,237,255);
+    margin: 0px 15px 10px 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    color:white;
+    font-size: 11px;
+    padding:20px;
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    background-color: black;
+}
+
+.more_info_btn {
+    background-color:#1A93DF;
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    padding:10px;
+    margin-left:20px;
+    margin-bottom:25px;
+    margin-top:20px;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.white_btn {
+    background-color: white;
+    border:none;
+    color: rgb(77,175,237);
+    font-size: 14px;
+    margin: 5px 0px 20px 8px;
+}
+
+#logo {
+    margin:0px;
+    letter-spacing: 1px;
+    padding: 25px 0px 0px 25px;
+    display: inline-block;
+}
+
+#snow_img {
+    margin:10px;
+}
+
+.text_box {
+    color:white;
+    background-color: rgb(20,104,168);
+    display: inline-block;
+    width: 272px;
+    margin:0px 5px 10px 5px;
+}
+
+.text_box:first-child {
+    margin-left: 20px;
+}
+
+.small_wrench_img {
+    margin:10px;
+    display:inline-block;
+    border-radius: 20px;
+}
+
+#left_div {
+    width:300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#middle_div {
+    margin-top: 40px;
+    width: 278px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#right_div {
+    width: 295px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bottom_div {
+    display: inline-block;
+    width: 920px;
+    margin-top: 10px;
+}
+
+#highrise_img {
+    margin-left:17px;
+    display: inline-block;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid rgb(218,237,255);
+    position:relative;
+    margin:0px;
+    padding:0px;
+    top: -13px;
+    left: 35px;
+}
+
+.bottom_text {
+    color:darkgrey;
+    display: block;
+    vertical-align: top;
+    padding:0px;
+    margin: 0px 0px 14px 10px;
+}
+
+#footer_div {
+    background-color: rgb(218,237,255);
+    border: 2px solid rgb(6,33,52);
+    text-decoration: center;
+    padding: 20px;
+    font-size: 12px;
+    width: 850px;
+    margin-left:20px;
+    display: inline-block;
+}
+
+.footer_nav {
+    color: rgb(20,104,168);
+    padding-right:15px;
+    display: inline-block;
+}
+
+.footer_nav:first-child {
+    margin-left: 220px;
+}
+
+
